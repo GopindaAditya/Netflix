@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;    
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    margin: 0 5%;
+}
+
+.navbar img{
+    width: 170px;
+    height: 135px;
+}
+
+.navbar button{
+    margin-top: 3%;
+    width: 75px;
+    height: 40px;
+    background-color: rgb(223, 4, 4);
+    border-radius: 5px;
+    color: white;
+}
+
+.isi{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;    
+}
+
+.isi table{
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;    
+}
+.isi th{
+    border: 10px solid black;
+}
+
+.isi img{
+    width: 150px;
+    height: 200px;
+}
+
+.isi button{
+    margin: 2%;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
